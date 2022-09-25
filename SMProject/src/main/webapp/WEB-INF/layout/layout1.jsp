@@ -7,6 +7,7 @@
 <html>
 <head>
 <c:set var="root" value="<%=request.getContextPath()%>"/>
+<link rel="shortcut icon" type="image/x-icon" href="${root}/image/sf.png">
 <meta charset="UTF-8">
 <title>Spring5+Tiles3+Mybatis</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">

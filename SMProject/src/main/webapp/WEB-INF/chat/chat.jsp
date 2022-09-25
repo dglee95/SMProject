@@ -32,7 +32,7 @@
     <tr>
       <td>시간</td>
       <td>날씨</td>
-      <td>강수확률 git's branch test</td>
+      <td>강수확률 git's branch test new</td>
       <td>풍속 push test</td>
       <td>온도 push test</td>
       

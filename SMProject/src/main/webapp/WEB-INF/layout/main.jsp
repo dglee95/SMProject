@@ -40,7 +40,7 @@
 <body>
 <c:set var="root" value="<%=request.getContextPath()%>"/>
 <div class="maincontainer">
-	<h1>ㅎㅇ</h1>
+	<h1>동건님 인텔리제이</h1>
 	
 </div>
 </body>

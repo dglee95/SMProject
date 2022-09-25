@@ -1,4 +1,4 @@
 # SMProject
-SM Project
+SM Project<br>
 소태호 가입완료<br>
-저 두 가 입 완 료 했 어 용
+형준:저 두 가 입 완 료 했 어 용

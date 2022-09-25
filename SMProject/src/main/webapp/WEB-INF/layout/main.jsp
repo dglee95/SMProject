@@ -40,30 +40,7 @@
 <body>
 <c:set var="root" value="<%=request.getContextPath()%>"/>
 <div class="maincontainer">
-	<figure>
-		<img alt="" src="${root}/image/10.jpg" class="img-thumbnail">
-		<figcaption>김태희<br><i class='fas fa-phone'></i>&nbsp;010-532-4562</figcaption>
-	</figure>
-	<figure>
-		<img alt="" src="${root}/image/hwangjeongeum.jpg" class="img-thumbnail">
-		<figcaption>황정음<br><i class='fas fa-phone'></i>&nbsp;010-345-5421</figcaption>
-	</figure>
-	<figure>
-		<img alt="" src="${root}/image/jeonjeehyeon.jpg" class="img-thumbnail">
-		<figcaption>전지현<br><i class='fas fa-phone'></i>&nbsp;010-831-3931</figcaption>
-	</figure>
-	<figure>
-		<img alt="" src="${root}/image/9.jpg" class="img-thumbnail">
-		<figcaption>강동원<br><i class='fas fa-phone'></i>&nbsp;010-912-3249</figcaption>
-	</figure>
-	<figure>
-		<img alt="" src="${root}/image/youahin.jpg" class="img-thumbnail">
-		<figcaption>유아인<br><i class='fas fa-phone'></i>&nbsp;010-622-1925</figcaption>
-	</figure>
-	<figure>
-		<img alt="" src="${root}/image/kojoonhee.jpg" class="img-thumbnail">
-		<figcaption>고준희<br><i class='fas fa-phone'></i>&nbsp;010-912-3249</figcaption>
-	</figure>
+	<h1>ㅎㅇ</h1>
 	
 </div>
 </body>

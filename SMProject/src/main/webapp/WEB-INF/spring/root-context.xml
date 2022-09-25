@@ -7,8 +7,10 @@
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
       <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
 <!--       <property name="url" value="jdbc:mysql://localhost:3306/bitcamp?serverTimezone=Asia/Seoul"></property> -->
-      <property name="url" value="jdbc:mysql://192.168.0.27:3306/bitcamp?serverTimezone=Asia/Seoul"></property>
-      <property name="username" value="angel"></property> 
+<!--       <property name="url" value="jdbc:mysql://192.168.0.27:3306/bitcamp?serverTimezone=Asia/Seoul"></property> -->
+<!--       <property name="url" value="jdbc:mysql://118.67.131.160:3306/test?serverTimezone=Asia/Seoul"></property> -->
+      <property name="url" value="jdbc:mysql://106.10.40.167:3306/test?serverTimezone=Asia/Seoul"></property>
+      <property name="username" value="project"></property> 
       <property name="password" value="1234"></property> 
    </bean>
    

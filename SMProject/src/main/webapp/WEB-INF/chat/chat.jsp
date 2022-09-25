@@ -34,7 +34,7 @@
       <td>날씨</td>
       <td>강수확률</td>
       <td>풍속</td>
-      <td>온도 push test</td>
+      <td>온도</td>
       
     </tr>
   </thead>

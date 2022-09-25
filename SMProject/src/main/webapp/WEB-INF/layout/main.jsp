@@ -61,7 +61,7 @@
 
 <div class="maincontainer">
 	<h1>동건님 인텔리제이</h1>
-	<button type="button" id="btn">버튼</button>
+	<button type="button" id="btn">버튼test</button>
 	<div id="result"></div>
 
 </div>

@@ -1,0 +1,140 @@
+Index: SMProject/src/main/webapp/WEB-INF/layout/main.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMProject/src/main/webapp/WEB-INF/layout/main.jsp b/SMProject/src/main/webapp/WEB-INF/layout/main.jsp
+--- a/SMProject/src/main/webapp/WEB-INF/layout/main.jsp	
++++ b/SMProject/src/main/webapp/WEB-INF/layout/main.jsp	
+@@ -41,7 +41,7 @@
+ <c:set var="root" value="<%=request.getContextPath()%>"/>
+ <div class="maincontainer">
+ 	<h1>동건님 인텔리제이</h1>
+-	
++	<h1>${name}</h1>
+ </div>
+ </body>
+ </html>
+\ No newline at end of file
+Index: SMProject/src/main/resources/mapper/smMapper.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMProject/src/main/resources/mapper/smMapper.xml b/SMProject/src/main/resources/mapper/smMapper.xml
+--- a/SMProject/src/main/resources/mapper/smMapper.xml	
++++ b/SMProject/src/main/resources/mapper/smMapper.xml	
+@@ -3,7 +3,7 @@
+         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="sm.data.dao.MemberDao">
+ 	<select id="select" resultType="int">
+-		select count(*) from testtable
++		select count(*) from test
+ 	</select>
+ </mapper>
+ 
+Index: SMProject/src/main/java/sm/data/controller/MemberController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMProject/src/main/java/sm/data/controller/MemberController.java b/SMProject/src/main/java/sm/data/controller/MemberController.java
+--- a/SMProject/src/main/java/sm/data/controller/MemberController.java	
++++ b/SMProject/src/main/java/sm/data/controller/MemberController.java	
+@@ -9,13 +9,15 @@
+ 
+ @Controller
+ public class MemberController {
+-	
++
++	@Autowired
++	MemberServiceInter serviceInter;
+ 
+ 	
+-//	@GetMapping("/")
+-//	public String home() {
+-//		
+-//		
+-//		return "/sm1/layout/main"; // WEB-INF/layout/main.jsp 가 메인페이지로
+-//	}
++	@GetMapping("/")
++	public String home(Model model) {
++
++	model.addAttribute("name", serviceInter.select());
++		return "/sm1/layout/main"; // WEB-INF/layout/main.jsp 가 메인페이지로
++	}
+ }
+Index: SMProject/src/main/java/com/bit/sm/HomeController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMProject/src/main/java/com/bit/sm/HomeController.java b/SMProject/src/main/java/com/bit/sm/HomeController.java
+--- a/SMProject/src/main/java/com/bit/sm/HomeController.java	
++++ b/SMProject/src/main/java/com/bit/sm/HomeController.java	
+@@ -1,18 +1,24 @@
+ package com.bit.sm;
+ 
+ 
++import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.stereotype.Controller;
++import org.springframework.ui.Model;
+ import org.springframework.web.bind.annotation.GetMapping;
+ 
++import org.springframework.web.bind.annotation.RequestMapping;
++import org.springframework.web.bind.annotation.RestController;
+ import sm.data.service.MemberServiceInter;
+ 
+ @Controller
+ public class HomeController {
+ 
++@Autowired
++MemberServiceInter serviceInter;
+ 
+-	
+-	@GetMapping("/")
+-	public String home() {
+-		return "/sm1/layout/main";
+-	}
++//	@GetMapping("/")
++//	public String home(Model model) {
++//		model.addAttribute("name", serviceInter.select());
++//		return "/sm1/layout/main";
++//	}
+ }
+Index: SMProject/src/main/webapp/WEB-INF/spring/root-context.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMProject/src/main/webapp/WEB-INF/spring/root-context.xml b/SMProject/src/main/webapp/WEB-INF/spring/root-context.xml
+--- a/SMProject/src/main/webapp/WEB-INF/spring/root-context.xml	
++++ b/SMProject/src/main/webapp/WEB-INF/spring/root-context.xml	
+@@ -10,8 +10,8 @@
+ <!--       <property name="url" value="jdbc:mysql://192.168.0.27:3306/bitcamp?serverTimezone=Asia/Seoul"></property> -->
+ <!--       <property name="url" value="jdbc:mysql://118.67.131.160:3306/test?serverTimezone=Asia/Seoul"></property> -->
+       <property name="url" value="jdbc:mysql://106.10.40.167:3306/test?serverTimezone=Asia/Seoul"></property>
+-      <property name="username" value="project"></property> 
+-      <property name="password" value="1234"></property> 
++      <property name="username" value="root"></property>
++      <property name="password" value="F4$qY28TR$b"></property>
+    </bean>
+    
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+Index: SMProject/target/classes/mapper/smMapper.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMProject/target/classes/mapper/smMapper.xml b/SMProject/target/classes/mapper/smMapper.xml
+--- a/SMProject/target/classes/mapper/smMapper.xml	
++++ b/SMProject/target/classes/mapper/smMapper.xml	
+@@ -3,7 +3,7 @@
+         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="sm.data.dao.MemberDao">
+ 	<select id="select" resultType="int">
+-		select count(*) from testtable
++		select count(*) from test
+ 	</select>
+ </mapper>
+ 

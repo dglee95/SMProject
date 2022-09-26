@@ -39,9 +39,31 @@
 </head>
 <body>
 <c:set var="root" value="<%=request.getContextPath()%>"/>
+<script>
+	$(function(){
+		$("#btn").click(function(){
+			var s="";
+			$.ajax({
+				type:"get",
+				url:"/test",
+				dataType:"json",
+				success:function(res){
+					console.log("성공");
+					$("#result").append("ㅎㅇ");
+					$("#result").append(res.num);
+
+				}
+			});
+		});
+	});
+
+</script>
+
 <div class="maincontainer">
-	<h1>ㅎㅇ</h1>
-	
+	<h1>동건님 인텔리제이</h1>
+	<button type="button" id="btn">버튼test</button>
+	<div id="result"></div>
+
 </div>
 </body>
 </html>

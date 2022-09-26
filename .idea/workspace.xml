@@ -10,9 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c042a8ca-bf82-4386-a62d-fe3d5e13dafd" name="Changes" comment="">
+
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-09-25__8_57__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-09-25__8_57__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-09-26__9_53__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-09-26__9_53__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-09-26__9_53__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-09-26__9_53__Changes_1.xml" afterDir="false" />
+      
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +49,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+
+                    
+
                     <option name="branchName" value="DongGeonLocal" />
                     <option name="lastUsedInstant" value="1664189438" />
+
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
@@ -93,6 +99,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -104,8 +111,9 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Angular Template",
     "spring.configuration.checksum": "ed79acb0cd3d7f8320c53c7798335ef0"
+
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sth90\Desktop\Ex\SMProject\SMProject\SMProject\src\main\webapp" />
@@ -214,7 +222,9 @@
       <workItem from="1664124025709" duration="1834000" />
       <workItem from="1664152021216" duration="11541000" />
       <workItem from="1664169579884" duration="1641000" />
+
       <workItem from="1664189426677" duration="306000" />
+
     </task>
     <task id="LOCAL-00001" summary="태호 : push test">
       <created>1664108147078</created>
@@ -303,7 +313,9 @@
                   <entry key="branch">
                     <value>
                       <list>
+
                         <option value="DongGeonLocal" />
+
                       </list>
                     </value>
                   </entry>

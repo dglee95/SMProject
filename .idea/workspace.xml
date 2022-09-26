@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c042a8ca-bf82-4386-a62d-fe3d5e13dafd" name="Changes" comment="" />
+    <list default="true" id="c042a8ca-bf82-4386-a62d-fe3d5e13dafd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SMProject/src/main/webapp/WEB-INF/chat/JoonTest.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -41,16 +45,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="mainsmgitreal" />
-                    <option name="lastUsedInstant" value="1664170957" />
+                    <option name="branchName" value="LocalJoon" />
+                    <option name="lastUsedInstant" value="1664189585" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
                     <option name="lastUsedInstant" value="1664170942" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="mainsm" />
-                    <option name="lastUsedInstant" value="1664170876" />
                   </RecentBranch>
                 </list>
               </option>
@@ -91,19 +91,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/sth90/Desktop/Ex/SMProject/SMProject/SMProject/src/main/webapp",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "ed79acb0cd3d7f8320c53c7798335ef0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sth90/Desktop/Ex/SMProject/SMProject/SMProject/src/main/webapp&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ed79acb0cd3d7f8320c53c7798335ef0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sth90\Desktop\Ex\SMProject\SMProject\SMProject\src\main\webapp" />
@@ -212,6 +212,7 @@
       <workItem from="1664124025709" duration="1834000" />
       <workItem from="1664152021216" duration="11541000" />
       <workItem from="1664169579884" duration="1641000" />
+      <workItem from="1664189558731" duration="179000" />
     </task>
     <task id="LOCAL-00001" summary="태호 : push test">
       <created>1664108147078</created>
@@ -300,7 +301,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="mainsm" />
+                        <option value="LocalJoon" />
                       </list>
                     </value>
                   </entry>

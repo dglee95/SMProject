@@ -1,0 +1,27 @@
+From 81e4a19974183c7a9aa0ed0714cd2d5279dfed8d Mon Sep 17 00:00:00 2001
+From: Jaewoo Park <jaewoo7868@gmail.com>
+Date: Mon, 26 Sep 2022 00:47:51 +0900
+Subject: [PATCH] =?UTF-8?q?css=20=EC=B6=94=EA=B0=80?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ SMProject/src/main/webapp/WEB-INF/css/style.css | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/SMProject/src/main/webapp/WEB-INF/css/style.css b/SMProject/src/main/webapp/WEB-INF/css/style.css
+index 379d70a..ccf6edc 100644
+--- a/SMProject/src/main/webapp/WEB-INF/css/style.css
++++ b/SMProject/src/main/webapp/WEB-INF/css/style.css
+@@ -5,6 +5,7 @@
+ 	/*외부에서 불러올때 사용*/
+ 	font-family: 'Dohyeun';
+ 	src: url("font/BMDOHYEUN_ttf.ttf");
++	
+ }
+ 
+  
+-- 
+2.37.3.windows.1
+

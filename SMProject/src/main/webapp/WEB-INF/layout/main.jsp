@@ -41,7 +41,7 @@
 <c:set var="root" value="<%=request.getContextPath()%>"/>
 <div class="maincontainer">
 	<h1>ㅎㅇ</h1>
-	
+	<h1>${name}</h1>
 </div>
 </body>
 </html>
